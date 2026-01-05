@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Nhân Viên IT - Nguyễn Thiện Tân</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+        }
+        @media print {
+            .no-print { display: none; }
+            body { background-color: white; }
+            .cv-container { box-shadow: none; margin: 0; width: 100%; }
+        }
+        .skill-tag {
+            background-color: #e0f2fe;
+            color: #0369a1;
+            padding: 2px 10px;
+            border-radius: 4px;
+            font-size: 0.875rem;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body class="py-10 px-4 md:px-0">
+
+    <div class="max-w-4xl mx-auto bg-white shadow-2xl rounded-lg overflow-hidden cv-container">
+        <!-- Header -->
+        <header class="bg-slate-800 text-white p-8 md:flex items-center justify-between">
+            <div>
+                <h1 class="text-4xl font-bold tracking-tight uppercase">Nguyễn Thiện Tân</h1>
+                <p class="text-blue-400 text-xl mt-2 font-medium">Software Engineer / Student</p>
+                <div class="mt-4 flex flex-wrap gap-4 text-sm text-slate-300">
+                    <span class="flex items-center gap-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                        tannguyen28092007@gmail.com
+                    </span>
+                    <span class="flex items-center gap-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                        0909532204
+                    </span>
+                    <span class="flex items-center gap-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+                        github.com/thientan
+                    </span>
+                </div>
+            </div>
+            <div class="mt-6 md:mt-0 text-right">
+                <p class="text-slate-400">TP. Hồ Chí Minh, Việt Nam</p>
+            </div>
+        </header>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-0">
+            <!-- Sidebar -->
+            <aside class="bg-slate-50 p-8 border-r border-slate-200">
+                <!-- Giới thiệu -->
+                <section class="mb-8">
+                    <h2 class="text-lg font-bold text-slate-800 border-b-2 border-blue-500 pb-1 mb-4 uppercase">Giới thiệu</h2>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Sinh viên chuyên ngành Kỹ thuật phần mềm tại PTIT. Có nền tảng kiến thức về cấu trúc dữ liệu, giải thuật và đam mê phát triển các ứng dụng web hiện đại. Luôn tìm kiếm cơ hội học tập và thực hành trong môi trường chuyên nghiệp.
+                    </p>
+                </section>
+
+                <!-- Kỹ năng -->
+                <section class="mb-8">
+                    <h2 class="text-lg font-bold text-slate-800 border-b-2 border-blue-500 pb-1 mb-4 uppercase">Kỹ năng</h2>
+                    <div class="space-y-4">
+                        <div>
+                            <p class="text-xs font-bold text-slate-500 uppercase mb-2">Lập trình</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="skill-tag">C/C++</span>
+                                <span class="skill-tag">Java</span>
+                                <span class="skill-tag">JavaScript</span>
+                                <span class="skill-tag">Python</span>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="text-xs font-bold text-slate-500 uppercase mb-2">Web Technologies</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="skill-tag">React.js</span>
+                                <span class="skill-tag">HTML5/CSS3</span>
+                                <span class="skill-tag">Tailwind CSS</span>
+                                <span class="skill-tag">Node.js</span>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="text-xs font-bold text-slate-500 uppercase mb-2">Khác</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="skill-tag">Git/GitHub</span>
+                                <span class="skill-tag">MySQL</span>
+                                <span class="skill-tag">Docker Basics</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Học vấn -->
+                <section class="mb-8">
+                    <h2 class="text-lg font-bold text-slate-800 border-b-2 border-blue-500 pb-1 mb-4 uppercase">Học vấn</h2>
+                    <div class="mb-4">
+                        <p class="font-bold text-slate-800 text-sm">Học viện Công nghệ Bưu chính Viễn thông (PTIT)</p>
+                        <p class="text-slate-500 text-xs italic font-medium">Kỹ thuật phần mềm</p>
+                        <p class="text-blue-600 text-xs font-bold mt-1 tracking-wider">2025 - 2030</p>
+                    </div>
+                </section>
+
+                <!-- Ngôn ngữ -->
+                <section>
+                    <h2 class="text-lg font-bold text-slate-800 border-b-2 border-blue-500 pb-1 mb-4 uppercase">Ngoại ngữ</h2>
+                    <ul class="text-sm text-slate-600 space-y-1">
+                        <li class="flex justify-between"><span>Tiếng Anh:</span> <span class="font-medium text-slate-800">Giao tiếp tốt</span></li>
+                    </ul>
+                </section>
+            </aside>
+
+            <!-- Main Content -->
+            <main class="col-span-2 p-8 space-y-8">
+                <!-- Mục tiêu nghề nghiệp -->
+                <section>
+                    <div class="flex items-center gap-2 mb-4">
+                        <div class="bg-blue-600 p-2 rounded-lg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/></svg>
+                        </div>
+                        <h2 class="text-2xl font-bold text-slate-800">Mục Tiêu Nghề Nghiệp</h2>
+                    </div>
+                    <p class="text-sm text-slate-600 leading-relaxed italic">
+                        "Phấn đấu trở thành một chuyên gia Full Stack Developer trong tương lai. Trong giai đoạn 2025-2030, tập trung tối đa vào việc nắm vững các kiến thức nền tảng tại Học viện và tích lũy kinh nghiệm thực tế qua các dự án cá nhân và thực tập."
+                    </p>
+                </section>
+
+                <!-- Dự án nổi bật -->
+                <section>
+                    <div class="flex items-center gap-2 mb-4">
+                        <div class="bg-blue-600 p-2 rounded-lg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m16 18 6-6-6-6"/><path d="m8 6-6 6 6 6"/><path d="m14 4-4 16"/></svg>
+                        </div>
+                        <h2 class="text-2xl font-bold text-slate-800">Dự Án Cá Nhân & Học Tập</h2>
+                    </div>
+
+                    <div class="space-y-4">
+                        <div class="p-4 border border-slate-200 rounded-lg bg-white hover:border-blue-400 hover:shadow-md transition-all">
+                            <div class="flex justify-between items-center mb-2">
+                                <h3 class="font-bold text-slate-800 text-lg">Hệ thống quản lý học tập cá nhân</h3>
+                                <span class="text-xs font-mono text-blue-600 font-bold">Node.js, MongoDB</span>
+                            </div>
+                            <p class="text-sm text-slate-600">Xây dựng ứng dụng web giúp quản lý thời gian biểu và tài liệu học tập cho sinh viên.</p>
+                        </div>
+                        <div class="p-4 border border-slate-200 rounded-lg bg-white hover:border-blue-400 hover:shadow-md transition-all">
+                            <div class="flex justify-between items-center mb-2">
+                                <h3 class="font-bold text-slate-800 text-lg">Website giới thiệu bản thân (Portfolio)</h3>
+                                <span class="text-xs font-mono text-blue-600 font-bold">HTML, Tailwind CSS</span>
+                            </div>
+                            <p class="text-sm text-slate-600">Thiết kế và triển khai trang web cá nhân chuyên nghiệp để trưng bày các sản phẩm lập trình.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Hoạt động -->
+                <section>
+                    <div class="flex items-center gap-2 mb-4">
+                        <div class="bg-blue-600 p-2 rounded-lg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                        </div>
+                        <h2 class="text-2xl font-bold text-slate-800">Hoạt Động & Giải Thưởng</h2>
+                    </div>
+                    <ul class="list-disc list-inside text-sm text-slate-600 space-y-2 ml-2">
+                        <li>Tham gia CLB Lập trình tại Học viện Công nghệ Bưu chính Viễn thông.</li>
+                        <li>Đạt giải khuyến khích trong kỳ thi Olympic Tin học cấp trường.</li>
+                        <li>Tình nguyện viên hỗ trợ kỹ thuật cho các sự kiện sinh viên.</li>
+                    </ul>
+                </section>
+
+                <!-- Footer của CV -->
+                <footer class="pt-6 text-center border-t border-slate-100">
+                    <p class="text-xs text-slate-400 uppercase tracking-widest italic">Tôi cam đoan những thông tin trên là hoàn toàn chính xác.</p>
+                </footer>
+            </main>
+        </div>
+    </div>
+
+</body>
+</html>
